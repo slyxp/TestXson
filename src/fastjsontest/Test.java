@@ -8,8 +8,6 @@ import com.google.gson.reflect.TypeToken;
 
 /**
  * Created by user on 2015/12/25.
- *
- * http://www.iteye.com/problems/75604
  */
 
 public class Test {
