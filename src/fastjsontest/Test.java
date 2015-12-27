@@ -7,7 +7,9 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 /**
- * Created by user on 2015/12/28.
+ * Created by user on 2015/12/25.
+ *
+ * http://www.iteye.com/problems/75604
  */
 
 public class Test {
@@ -47,7 +49,7 @@ public class Test {
         private List<A> rows;
 
         public int getTotal() {
-            return 1;
+            return total1;
         }
 
         public void setTotal(int total) {
