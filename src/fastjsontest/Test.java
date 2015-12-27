@@ -43,7 +43,7 @@ public class Test {
     }
 
     class B {
-        private int total;
+        private int total1;
         private List<A> rows;
 
         public int getTotal() {
@@ -51,7 +51,7 @@ public class Test {
         }
 
         public void setTotal(int total) {
-            this.total = total;
+            this.total1 = total;
         }
 
         public List<A> getRows() {
