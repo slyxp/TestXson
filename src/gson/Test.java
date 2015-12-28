@@ -45,15 +45,15 @@ public class Test {
     }
 
     class B {
-        private int total1;
+        private int total;
         private List<A> rows;
 
         public int getTotal() {
-            return total1;
+            return total;
         }
 
         public void setTotal(int total) {
-            this.total1 = total;
+            this.total = total;
         }
 
         public List<A> getRows() {

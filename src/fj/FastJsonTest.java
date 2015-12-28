@@ -12,15 +12,15 @@ import com.alibaba.fastjson.JSON;
  */
 
 class User {
-    private String name_user;
+    private String name;
     private int age;
 
     public String getName() {
-        return name_user;
+        return name;
     }
 
     public void setName(String name) {
-        this.name_user = name;
+        this.name = name;
     }
 
     public int getAge() {
@@ -33,20 +33,20 @@ class User {
 
     @Override
     public String toString() {
-        return "User [name_user=" + name_user + ", age=" + age + "]";
+        return "User [name_user=" + name + ", age=" + age + "]";
     }
 };
 
 class UserGroup {
-    private String name1;
+    private String name;
     private List<User> users = new ArrayList<User>();
 
     public String getName() {
-        return name1;
+        return name;
     }
 
     public void setName(String name) {
-        this.name1 = name;
+        this.name = name;
     }
 
     public List<User> getUsers() {
@@ -59,7 +59,7 @@ class UserGroup {
 
     @Override
     public String toString() {
-        return "UserGroup [name1=" + name1 + ", users=" + users + "]";
+        return "UserGroup [name1=" + name + ", users=" + users + "]";
     }
 }
 
