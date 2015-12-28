@@ -8,6 +8,8 @@ import com.google.gson.reflect.TypeToken;
 
 /**
  * Created by user on 2015/12/25.
+ * Gson Demo
+ * json串对应对象B，使用对象B来解析
  */
 
 public class Test {
